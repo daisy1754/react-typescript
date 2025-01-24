@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext", "ES6"],
+    "module": "esnext",
+    "moduleResolution": "node",
     "jsx": "react-jsx",
     "noEmit": true,
     "isolatedModules": true,
